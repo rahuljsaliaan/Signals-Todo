@@ -1,6 +1,7 @@
 import React from "react";
 import { computed } from "@preact/signals-react";
-import { addTodo } from "@app/signals/todoSignal";
+
+import { addTodo } from "@app/signals";
 
 const AddTodoButton: React.FC = () => {
   const handleAddTodo = computed<React.MouseEventHandler<HTMLButtonElement>>(

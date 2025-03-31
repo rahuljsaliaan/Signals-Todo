@@ -1,7 +1,7 @@
 import React from "react";
 import { computed } from "@preact/signals-react";
 
-import { getTodosWithCondition } from "@app/signals/todoSignal";
+import { getTodosWithCondition } from "@app/signals";
 
 const CompletedCount: React.FC = () => {
   const completedCount = computed<number>(

@@ -3,7 +3,7 @@ import { computed } from "@preact/signals-react";
 
 import { Todo } from "@app/types";
 import { useSignalEffect, useSignals } from "@preact/signals-react/runtime";
-import { getSpecificTodo, updateTodoText } from "@app/signals/todoSignal";
+import { getSpecificTodo, updateTodoText } from "@app/signals";
 
 interface ITodoItem {
   todoId: Todo["id"];

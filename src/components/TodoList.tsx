@@ -1,7 +1,8 @@
 import React from "react";
-import { todoState } from "@app/signals/todoSignal";
-import { RemoveTodoButton, TodoCheckBox, TodoItem } from "@app/components";
 import { useSignals } from "@preact/signals-react/runtime";
+
+import { todoState } from "@app/signals";
+import { RemoveTodoButton, TodoCheckBox, TodoItem } from "@app/components";
 
 const TodoList: React.FC = () => {
   useSignals();

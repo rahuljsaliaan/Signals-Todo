@@ -2,7 +2,7 @@ import React from "react";
 import { computed } from "@preact/signals-react";
 import { HiDocumentRemove } from "react-icons/hi";
 
-import { removeTodo } from "@app/signals/todoSignal";
+import { removeTodo } from "@app/signals";
 import { Todo } from "@app/types";
 
 interface IRemoveTodoButtonProps {

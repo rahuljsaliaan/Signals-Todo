@@ -3,7 +3,7 @@ import { useSignals } from "@preact/signals-react/runtime";
 import { computed } from "@preact/signals-react";
 
 import { Todo } from "@app/types";
-import { getSpecificTodo, toggleTodo } from "@app/signals/todoSignal";
+import { getSpecificTodo, toggleTodo } from "@app/signals";
 
 interface ITodoCheckBoxProps {
   todoId: Todo["id"];
